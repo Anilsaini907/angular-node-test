@@ -4,6 +4,10 @@ Angular node and sequlize orm
 
 Take the zip file for both and export as folder.
 **configure Angular project**
+put below code in tsconfig.json file.
+"paths": {
+      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"]
+    },
 run npm install to get node folder
 after run angular at port by
 ng serve --port 8081 
